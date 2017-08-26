@@ -11,7 +11,7 @@ import com.mongodb.DBCursor;
 import com.mongodb.ServerAddress;
 import java.util.Arrays;
 
-public class MongoDBJDBC {
+public class programDB {
 
 	public static void main(String args[]) {
 
