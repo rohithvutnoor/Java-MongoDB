@@ -45,6 +45,10 @@ public static void main(String[] args) throws IOException, ParseException{
       Object object = parser.parse(jsonText);
       JSONArray jArray = (JSONArray)object;
 		
+      Object ob = parser.parse("[{\"name\":\"rohith1\",\"roll\":10}]");
+      JSONObject job1 = (JSONObject)ob;
+      System.out.println(job1.get("roll"));
+	
       System.out.println(jArray.get(1));
       //System.out.println(obj1.get(0));
       
